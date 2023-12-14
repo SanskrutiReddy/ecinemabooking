@@ -1,0 +1,92 @@
+#SCTopText {
+    text-align: center;
+    color: #006eff;
+    /* font-size: 30px !important; */
+}
+
+#verifyCodeInput {
+    border-color: #0d6efd !important;
+    border-width: 2px !important;
+    border-radius: 0px 5px 5px 0px !important;
+    height: 35px !important;
+    text-align: center;
+}
+
+#half-Split2-vInput {
+    justify-content: center;
+    width: 39% !important;
+    margin-left: -18% !important;
+
+}
+
+#vcodeContainer {
+    max-width: 700px;
+    min-width: 700px;
+}
+
+#half-Split2-vBttn {
+    border-radius: 5px 0px 0px 5px !important;
+    justify-content: center;
+    width: 39% !important;
+    padding-right: 1px !important;
+}
+
+
+#confirmationBod {
+    background-color: rgb(255, 255, 255);
+    border-width: 5px;
+    border: solid;
+    border-color: #006eff;
+    width: 50%;
+    max-width: 800px;
+    height: 500px;
+    text-align: center;
+    font-size: 15px;
+    transition: .5s ease;
+}
+
+#confirmationBod:hover {
+    transition: .5s ease;
+    box-shadow: 0px 0px 10px #006eff;
+}
+
+#emailConfTxt {
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+}
+
+#yourDetailTxt,
+#yourBillingAdd {
+    text-decoration: underline !important;
+    padding-top: 20px;
+}
+
+
+#detailText,
+#billingText {
+    padding-top: 20px;
+}
+
+#continueBtnSUC {
+    border-radius: 20px;
+    transition: .5s ease;
+}
+
+#continueBtnSUC:hover {
+    border-radius: 0px;
+    transition: .5s ease;
+}
+
+#confFormGenInfo {
+    /* padding-top: 20%; */
+}
+
+#EditProfileBtn {
+    margin: 0px;
+}
+
+#buttonHolder {
+    width: 68%;
+    justify-content: center;
+}

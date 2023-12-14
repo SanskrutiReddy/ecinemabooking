@@ -1,0 +1,127 @@
+#loginform {
+    border: 3px solid #ffffff;
+    margin-top: 100px;
+    width: 60%;
+    margin-left: 26%;
+    background-color: #ffffff;
+    max-width: 540px;
+}
+
+/* #dhaabtn {
+    width: 20% !important;
+} */
+
+#logininput {
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+}
+
+#logininput:hover {
+    transition: .3s ease;
+    box-shadow: 0px 0px 10px #006eff;
+}
+
+#loginbody {
+    background-color: #ffffff;
+}
+
+#loginbtn {
+    background-color: #006eff;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 8%;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 30px;
+    font-family: 'Lustria';
+    font-style: normal;
+    font-size: 18px;
+    font-weight: bold;
+    transition: .5s ease;
+}
+
+#loginbtn:hover {
+    transition: .5s ease;
+    border-radius: 0px;
+}
+
+#half-Split-login {
+    justify-content: center;
+    width: 50% !important;
+    padding-left: 80px;
+}
+
+#loginsplitbtn-r,
+#loginsplitbtn-l {
+    background-color: #006eff;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    font-family: 'Lustria';
+    font-style: normal;
+    font-size: 80%;
+    font-weight: bold;
+    justify-content: center;
+    width: 100% !important;
+    max-width: 140px;
+    transition: .5s ease;
+}
+
+#loginsplitbtn-r:hover,
+#loginsplitbtn-l:hover {
+    border-radius: 0px;
+}
+
+#loginsplitbtn-r {
+    width: 200% !important;
+    max-width: 140px;
+    margin-left: 50px;
+    margin-right: -30px;
+}
+
+#loginsplitbtn-l {
+    width: 100% !important;
+    max-width: 140px;
+    margin-right: 140px;
+    margin-left: -30px;
+}
+
+#logintxt {
+    color: #006eff;
+    font-size: 50px;
+    /* margin-left: 39% !important; */
+    text-align: center !important;
+
+}
+
+#half-Split-login {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/* @media (max-width: 793px) {
+    #loginsplitbtn-r {}
+
+    #loginsplitbtn-l {}
+} */
